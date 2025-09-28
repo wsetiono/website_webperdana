@@ -107,11 +107,11 @@ export default function HomePage() {
                 <Badge variant="secondary" className="w-fit">
                   Solusi Digital Terpercaya
                 </Badge>
-                <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
+                <h1 className="text-3xl lg:text-4xl font-bold text-foreground leading-tight">
                   Wujudkan Bisnis Digital Impian Anda Bersama <span className="text-primary">Web Perdana</span>
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
-                  Kami menyediakan jasa pembuatan website, web app, dan mobile app (Android/iOS) dengan tampilan
+                  Kami menyediakan jasa pembuatan <span className="text-primary text-3xl font-bold">Website</span>, <span className="text-primary text-3xl font-bold">Web App</span>, dan <span className="text-primary text-3xl font-bold">Mobile App (Android/iOS)</span> dengan tampilan
                   menarik, loading cepat, dan keamanan terjamin untuk mengembangkan bisnis Anda.
                 </p>
               </div>
