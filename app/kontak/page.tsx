@@ -41,28 +41,28 @@ export default function KontakPage() {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Telepon",
-      value: "+62 812-3456-7890",
+      value: "+62 851-7955-2735",
       description: "Senin - Jumat, 09:00 - 18:00 WIB",
-      href: "tel:+6281234567890",
+      href: "tel:+6285179552735",
     },
     {
       icon: <MessageCircle className="h-6 w-6" />,
       title: "WhatsApp",
-      value: "+62 812-3456-7890",
+      value: "+62 851-7955-2735",
       description: "Respon cepat 24/7",
-      href: "https://wa.me/6281234567890",
+      href: "https://wa.me/6285179552735",
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      value: "hello@webperdana.com",
+      value: "webperdana.cs@gmail.com",
       description: "Respon dalam 24 jam",
-      href: "mailto:hello@webperdana.com",
+      href: "mailto:webperdana.cs@gmail.com",
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Alamat",
-      value: "Jakarta, Indonesia",
+      value: "Jalan Pluit Karang Sari 2 No 40, Pluit, Jakarta Utara, Indonesia",
       description: "Meeting by appointment",
       href: "#",
     },
@@ -163,7 +163,7 @@ export default function KontakPage() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            {/* <div className="space-y-8">
+            <div className="space-y-8">
               <div>
                 <h2 className="text-3xl font-bold text-foreground mb-4">Kirim Pesan</h2>
                 <p className="text-muted-foreground">
@@ -246,7 +246,7 @@ export default function KontakPage() {
                   lanjut.
                 </p>
               </form>
-            </div> */}
+            </div>
 
             {/* Services & Info */}
             <div className="space-y-8">
