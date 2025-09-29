@@ -18,7 +18,7 @@ export function WhatsAppChat() {
     return () => clearTimeout(timer)
   }, [])
 
-  const whatsappNumber = "6281234567890"
+  const whatsappNumber = "6285179552735"
   const defaultMessage = "Halo Web Perdana! Saya tertarik dengan layanan Anda. Bisakah kita diskusi lebih lanjut?"
 
   const quickMessages = [
