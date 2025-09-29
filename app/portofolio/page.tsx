@@ -56,7 +56,7 @@ export default function PortofolioPage() {
       type: "website",
       description:
         "Website Restoran Sushi dengan fitur QR Menu, Online Reservation, Customer Loyalty Point. ",
-      image: "/portofolio/ecommerce-system.png",
+      image: "/portofolio/website-restoran.png",
       technologies: ["Next.js", "React", ".NET Core API", "Tailwind CSS"],
       features: [
         "Responsive Design",
@@ -99,29 +99,6 @@ export default function PortofolioPage() {
     },
     {
       id: 4,
-      title: "Customer Loyalty Point",
-      category: "Web App",
-      type: "web app",
-      description:
-        "Customer Loyalty Point membuat customer merasa nyaman dalam belanja dengan system reward.",
-      image: "/portofolio/customer-loyalty-system.PNG",
-      technologies: ["Next.js", "React", ".NET Core API", "Tailwind CSS"],
-      features: [
-        "Responsive Design",
-        "Loyalty Point Management",
-        "Loyalty Point Reward",
-      ],
-      results: {
-        performance: "Loyalty Point membuat pelanggan makin sering belanja di toko/restoran anda",
-        conversion: "Jumlah pesanan makin meningkat",
-        traffic: "Loyalty Point membuat pelanggan makin loyal",
-      },
-      year: "2024",
-      client: "Kedai Siomay",
-      url: "#",
-    },
-    {
-      id: 5,
       title: "Human Resource",
       category: "Web App",
       type: "web app",
@@ -142,6 +119,55 @@ export default function PortofolioPage() {
       },
       year: "2024",
       client: "Perusahaan Tekstil",
+      url: "#",
+    },
+    {
+      id: 5,
+      title: "Inventory System",
+      category: "Web App",
+      type: "web app",
+      description:
+        "Inventory System Web App membantu proses manajemen produk, dashboard, low stock alert, category management.",
+      image: "/portofolio/inventory-system.PNG",
+      technologies: ["Next.js", "React", ".NET Core API", "Tailwind CSS"],
+      features: [
+        "Responsive Design",
+        "Manajement Produk",
+        "Dashboard",
+        "Low Stock Alert"
+      ],
+      results: {
+        performance: "Memudahkan business owner mengelola barang yang dimiliki",
+        conversion: "Efisiensi waktu dalam pengelolaan bisnis lebih terjaga",
+        traffic: "Manajemen stok barang lebih teratur dan terjaga",
+      },
+      year: "2024",
+      client: "Perusahaan Karpet",
+      url: "#",
+    },
+    {
+      id: 6,
+      title: "Online Learning Platform",
+      category: "Web Application",
+      type: "webapp",
+      description:
+        "Platform pembelajaran online dengan fitur dashboard, manajemen kursus, manajemen siswa, manajemen guru, assignment, penilaian",
+      image: "/learning-management-system.png",
+      technologies: ["Next.js", "React", "Node.js", "MongoDB", "AWS S3"],
+      features: [
+        "Dashboard",
+        "Manajemen Kursus",
+        "Manajemen Siswa",
+        "Manajemen Guru",
+        "Assignment",
+      ],
+      results: {
+        students: "2K+ Active Students",
+        completion: "78% Course Completion",
+        satisfaction: "4.6/5 Student Rating",
+      },
+      year: "2023",
+      client: "Educational Institution",
       url: "#",
     },
     // {
@@ -398,7 +424,7 @@ export default function PortofolioPage() {
                       </div>
                     </div>
 
-                    <div>
+                    {/* <div>
                       <h4 className="font-semibold text-foreground mb-2">Hasil:</h4>
                       <div className="grid grid-cols-1 gap-1">
                         {Object.entries(item.results).map(([key, value], idx) => (
@@ -407,7 +433,7 @@ export default function PortofolioPage() {
                           </div>
                         ))}
                       </div>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="flex gap-3 pt-4">
