@@ -149,8 +149,12 @@ export default function HomePage() {
                 <Image
                   src="/modern-web-development-team-working.jpg"
                   alt="Tim Web Perdana sedang mengembangkan website dan aplikasi"
-                  width={500}
-                  height={600}
+                  // width={500}
+                  // height={600}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto' }} // optional
                   className="rounded-lg shadow-2xl"
                   priority
                   loading="eager"
@@ -283,19 +287,19 @@ export default function HomePage() {
                 gratis dan penawaran terbaik!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" variant="secondary" asChild>
+                {/* <Button size="lg" variant="secondary" asChild>
                   <Link href="/kontak">
                     Hubungi Kami Sekarang
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
-                </Button>
+                </Button> */}
                 <Button
                   size="lg"
                   variant="outline"
                   className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
                   asChild
                 >
-                  <Link href="https://wa.me/62xxxxxxxxx">WhatsApp Kami</Link>
+                  <Link href="https://wa.me/6285179552735">WhatsApp Kami</Link>
                 </Button>
               </div>
             </div>
