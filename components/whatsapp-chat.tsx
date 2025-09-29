@@ -100,10 +100,11 @@ export function WhatsAppChat() {
         {/* WhatsApp Button */}
         <Button
           size="lg"
-          className="h-14 w-14 rounded-full bg-green-600 hover:bg-green-700 shadow-2xl"
+          /* className="h-14 w-14 rounded-full bg-green-600 hover:bg-green-700 shadow-2xl" */
+          className="bg-green-500 hover:bg-green-600 text-white text-xl rounded-full w-44 h-14 shadow-lg hover:shadow-xl transition-all duration-300"
           onClick={() => setIsOpen(!isOpen)}
         >
-          Chat Kami
+          Chat Whatsapp
         </Button>
       </div>
     </>
