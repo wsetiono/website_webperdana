@@ -31,7 +31,7 @@ export default function PortofolioPage() {
       type: "website",
       description:
         "Platform e-commerce fashion dengan fitur lengkap seperti payment gateway, inventory management, dan sistem review produk.",
-      image: "/modern-fashion-ecommerce.png",
+      image: "/portofolio/ecommerce-system.png",
       technologies: ["Next.js", "React", "Stripe", "PostgreSQL", "Tailwind CSS"],
       features: [
         "Payment Gateway Integration",
