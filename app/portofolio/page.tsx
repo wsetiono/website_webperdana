@@ -490,6 +490,7 @@ export default function PortofolioPage() {
                     height={400}
                     className="w-full h-64 object-cover"
                     loading="lazy"
+                    style={{ height: 'auto' }}
                   />
                   <div className="absolute top-4 left-4">
                     <Badge variant="secondary" className="flex items-center gap-1">
