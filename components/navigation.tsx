@@ -37,7 +37,8 @@ export function Navigation() {
               </Link>
             ))}
             <Button asChild>
-              <Link href="/kontak">Hubungi Kami</Link>
+              {/* <Link href="/kontak">Hubungi Kami</Link> */}
+              <Link href="https://wa.me/6285179552735">Hubungi Kami</Link>
             </Button>
           </div>
 
