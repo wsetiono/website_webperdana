@@ -350,19 +350,19 @@ export default function PortofolioPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Budi Santoso",
+                name: "Owner",
                 company: "Fashion Boutique",
                 text: "Website e-commerce yang dibuat Web Perdana sangat membantu meningkatkan penjualan online kami. Desainnya menarik dan mudah digunakan.",
                 rating: 5,
               },
               {
-                name: "Sarah Wijaya",
+                name: "Strategic Business Manager",
                 company: "Food Delivery Startup",
                 text: "Aplikasi mobile yang dikembangkan sangat profesional dan sesuai dengan kebutuhan bisnis kami. Tim sangat responsif dan supportif.",
                 rating: 5,
               },
               {
-                name: "Dr. Ahmad Rahman",
+                name: "Owner",
                 company: "Klinik Sehat Bersama",
                 text: "Website klinik kami menjadi lebih modern dan fungsional. Sistem booking online sangat memudahkan pasien untuk membuat janji.",
                 rating: 5,
