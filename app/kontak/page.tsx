@@ -162,23 +162,7 @@ export default function KontakPage() {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12">
-            {/* Contact Form */}
-            <div className="space-y-8">
-              <div>
-                  <h3 className="text-xl font-semibold text-foreground mb-4">Pertanyaan Umum</h3>
-                  <div className="space-y-4">
-                    {faqs.map((faq, index) => (
-                      <Card key={index} className="p-4">
-                        <CardContent className="space-y-2">
-                          <h4 className="font-medium text-foreground">{faq.question}</h4>
-                          <p className="text-sm text-muted-foreground">{faq.answer}</p>
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </div>
-                </div>
-            </div>
-
+           
             {/* Services & Info */}
             <div className="space-y-8">
               <div>
@@ -245,6 +229,25 @@ export default function KontakPage() {
                 </div>
               </div> */}
             </div>
+
+            {/* Contact Form */}
+            <div className="space-y-8">
+              <div>
+                  <h3 className="text-3xl font-bold text-foreground mb-4">Pertanyaan Umum</h3>
+                  <div className="space-y-4">
+                    {faqs.map((faq, index) => (
+                      <Card key={index} className="p-4">
+                        <CardContent className="space-y-2">
+                          <h4 className="font-medium text-foreground">{faq.question}</h4>
+                          <p className="text-sm text-muted-foreground">{faq.answer}</p>
+                        </CardContent>
+                      </Card>
+                    ))}
+                  </div>
+                </div>
+            </div>
+
+
           </div>
         </div>
       </section>
