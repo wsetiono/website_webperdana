@@ -29,45 +29,45 @@ export default function HomePage() {
   const portfolioItems = [
     {
       id: 1,
-      title: "E-Commerce Fashion",
+      title: "Ecommerce Electronic Website",
       category: "Website",
-      image: "/modern-fashion-ecommerce.png",
-      description: "Platform e-commerce modern untuk brand fashion lokal",
+      image: "/portofolio/ecommerce-system.png",
+      description: "Platform e-commerce electronik dengan  fitur lengkap seperti payment gateway, inventory management, dan sistem review produk",
     },
     {
       id: 2,
-      title: "Aplikasi Delivery Food",
-      category: "Mobile App",
-      image: "/food-delivery-app.png",
-      description: "Aplikasi mobile untuk layanan delivery makanan",
+      title: "Sushi Website Restaurant",
+      category: "Website",
+      image: "/portofolio/website-restoran.png",
+      description: "Website Restoran Sushi dengan fitur QR Menu, Online Reservation, Customer Loyalty Point.",
     },
     {
       id: 3,
-      title: "Dashboard Analytics",
+      title: "Customer Loyalty Point",
       category: "Web App",
-      image: "/business-analytics-dashboard.png",
-      description: "Dashboard analytics untuk monitoring bisnis",
+      image: "/portofolio/customer-loyalty-system.PNG",
+      description: "Customer Loyalty Point membuat customer merasa nyaman dalam belanja dengan system reward.",
     },
     {
       id: 4,
-      title: "Website Klinik",
-      category: "Website",
-      image: "/medical-clinic-website.png",
-      description: "Website profesional untuk klinik kesehatan",
+      title: "Human Resource",
+      category: "Web App",
+      image: "/portofolio/hr-system.PNG",
+      description: "HR System Web App membantu proses manajemen employee, perhitungan payroll, dan generate report.",
     },
     {
       id: 5,
-      title: "Aplikasi Booking",
-      category: "Mobile App",
-      image: "/booking-appointment-mobile-app.jpg",
-      description: "Aplikasi mobile untuk sistem booking appointment",
+      title: "Inventory System",
+      category: "Web App",
+      image: "/portofolio/inventory-system.PNG",
+      description: "Inventory System Web App membantu proses manajemen produk, dashboard, low stock alert, category management.",
     },
     {
       id: 6,
-      title: "Platform Learning",
+      title: "Medical Clinic Website",
       category: "Web App",
-      image: "/online-learning-platform.png",
-      description: "Platform pembelajaran online interaktif",
+      image: "/portofolio/medical-system.png",
+      description: "Website klinik medis dengan sistem appointment booking, informasi dokter, informasi pasien, report.",
     },
   ]
 
@@ -217,14 +217,14 @@ export default function HomePage() {
                 <CardContent className="p-6">
                   <h3 className="text-xl font-semibold text-foreground mb-2">{item.title}</h3>
                   <p className="text-muted-foreground mb-4">{item.description}</p>
-                  <Button
+                  {/* <Button
                     variant="outline"
                     size="sm"
                     className="group-hover:bg-primary group-hover:text-primary-foreground transition-colors bg-transparent"
                   >
                     Lihat Detail
                     <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  </Button> */}
                 </CardContent>
               </Card>
             ))}
