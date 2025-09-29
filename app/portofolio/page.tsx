@@ -363,7 +363,7 @@ export default function PortofolioPage() {
               },
               {
                 name: "Owner",
-                company: "Klinik Sehat Bersama",
+                company: "Klinik Medis",
                 text: "Website klinik kami menjadi lebih modern dan fungsional. Sistem booking online sangat memudahkan pasien untuk membuat janji.",
                 rating: 5,
               },
