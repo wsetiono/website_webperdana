@@ -41,28 +41,28 @@ export default function KontakPage() {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Telepon",
-      value: "+62 851-7955-2735",
-      description: "Senin - Jumat, 07:00 - 21:00 WIB",
-      href: "tel:+6285179552735",
+      value: "+62 812-3456-7890",
+      description: "Senin - Jumat, 09:00 - 18:00 WIB",
+      href: "tel:+6281234567890",
     },
     {
       icon: <MessageCircle className="h-6 w-6" />,
       title: "WhatsApp",
-      value: "+62 851-7955-2735",
+      value: "+62 812-3456-7890",
       description: "Respon cepat 24/7",
-      href: "https://wa.me/6285179552735",
+      href: "https://wa.me/6281234567890",
     },
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      value: "webperdana.cs@gmail.com",
+      value: "hello@webperdana.com",
       description: "Respon dalam 24 jam",
-      href: "mailto:webperdana.cs@gmail.com",
+      href: "mailto:hello@webperdana.com",
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Alamat",
-      value: "Jalan Pluit Karang Sari 2 No 40, Pluit, Jakarta Utara, Indonesia",
+      value: "Jakarta, Indonesia",
       description: "Meeting by appointment",
       href: "#",
     },
@@ -329,7 +329,7 @@ export default function KontakPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <Link href="https://wa.me/6281234567890">
+                <Link href="https://wa.me/6285179552735">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Chat WhatsApp Sekarang
                 </Link>
