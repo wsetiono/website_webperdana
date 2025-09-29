@@ -163,7 +163,7 @@ export default function KontakPage() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div className="space-y-8">
+            {/* <div className="space-y-8">
               <div>
                 <h2 className="text-3xl font-bold text-foreground mb-4">Kirim Pesan</h2>
                 <p className="text-muted-foreground">
@@ -246,7 +246,7 @@ export default function KontakPage() {
                   lanjut.
                 </p>
               </form>
-            </div>
+            </div> */}
 
             {/* Services & Info */}
             <div className="space-y-8">
@@ -329,7 +329,7 @@ export default function KontakPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <Link href="https://wa.me/6285179552735">
+                <Link href="https://wa.me/6281234567890">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Chat WhatsApp Sekarang
                 </Link>
