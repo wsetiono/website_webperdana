@@ -156,8 +156,7 @@ export default function TentangKamiPage() {
                 Software House <span className="text-primary">Terpercaya</span> Indonesia
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Dengan pengalaman lebih dari 5 tahun, Web Perdana telah membantu 50+ bisnis mengembangkan solusi digital
-                yang inovatif dan berkualitas tinggi. Kami berkomitmen memberikan yang terbaik untuk setiap klien.
+                Web Perdana adalah software house inovatif yang berdedikasi untuk menghadirkan solusi digital terdepan bagi bisnis Anda. Dengan fokus pada kualitas, kecepatan, dan kepuasan klien, kami mengembangkan website, aplikasi web, dan aplikasi mobile yang tidak hanya fungsional, tetapi juga menginspirasi. Kami berkomitmen memberikan yang terbaik untuk setiap klien.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
