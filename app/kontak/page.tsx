@@ -329,7 +329,7 @@ export default function KontakPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <Link href="https://wa.me/6281234567890">
+                <Link href="https://wa.me/6285179552735">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Chat WhatsApp Sekarang
                 </Link>
