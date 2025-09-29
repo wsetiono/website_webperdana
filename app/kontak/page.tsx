@@ -147,7 +147,7 @@ export default function KontakPage() {
                     <p className="text-sm text-muted-foreground">{info.description}</p>
                   </div>
                   {info.href !== "#" && (
-                    <Button size="sm" variant="outline" asChild>
+                    <Button size="sm" asChild>
                       <Link href={info.href}>Hubungi</Link>
                     </Button>
                   )}
