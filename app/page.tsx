@@ -149,12 +149,8 @@ export default function HomePage() {
                 <Image
                   src="/modern-web-development-team-working.jpg"
                   alt="Tim Web Perdana sedang mengembangkan website dan aplikasi"
-                  // width={500}
-                  // height={600}
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto' }} // optional
+                  width={500}
+                  height={600}
                   className="rounded-lg shadow-2xl"
                   priority
                   loading="eager"
@@ -209,8 +205,12 @@ export default function HomePage() {
                   <Image
                     src={item.image || "/placeholder.svg"}
                     alt={`${item.title} - ${item.description}`}
-                    width={400}
-                    height={300}
+                    // width={400}
+                    // height={300}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }} // optional
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                   />
