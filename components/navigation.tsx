@@ -63,7 +63,10 @@ export function Navigation() {
               ))}
               <div className="px-3 py-2">
                 <Button asChild className="w-full">
-                  <Link href="/kontak" onClick={() => setIsOpen(false)}>
+                  {/* <Link href="/kontak" onClick={() => setIsOpen(false)}>
+                    Hubungi Kami
+                  </Link> */}
+                  <Link href="https://wa.me/6285179552735">
                     Hubungi Kami
                   </Link>
                 </Button>

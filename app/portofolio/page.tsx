@@ -554,17 +554,17 @@ export default function PortofolioPage() {
 
                   <div className="flex gap-3 pt-4">
                     <Button size="sm" asChild>
-                      <Link href="/kontak">
+                      <Link href="https://wa.me/6285179552735">
                         Diskusi Proyek Serupa
                         <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
-                    <Button size="sm" variant="outline" asChild>
+                    {/* <Button size="sm" variant="outline" asChild>
                       <Link href={item.url}>
                         <ExternalLink className="mr-2 h-4 w-4" />
                         Lihat Detail
                       </Link>
-                    </Button>
+                    </Button> */}
                   </div>
                 </CardContent>
               </Card>
