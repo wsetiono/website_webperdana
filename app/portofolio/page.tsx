@@ -482,7 +482,7 @@ export default function PortofolioPage() {
           <div className="grid lg:grid-cols-2 gap-8">
             {portfolioItems.map((item) => (
               <Card key={item.id} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="relative">
+                <div className="relative" style={{ height: 'auto' }}>
                   <Image
                     src={item.image || "/placeholder.svg"}
                     alt={item.title}
@@ -490,7 +490,6 @@ export default function PortofolioPage() {
                     height={400}
                     className="w-full h-64 object-cover"
                     loading="lazy"
-                    style={{ height: 'auto' }}
                   />
                   <div className="absolute top-4 left-4">
                     <Badge variant="secondary" className="flex items-center gap-1">
