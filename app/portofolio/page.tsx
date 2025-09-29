@@ -482,12 +482,16 @@ export default function PortofolioPage() {
           <div className="grid lg:grid-cols-2 gap-8">
             {portfolioItems.map((item) => (
               <Card key={item.id} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="relative" style={{ height: 'auto' }}>
+                <div className="relative">
                   <Image
                     src={item.image || "/placeholder.svg"}
                     alt={item.title}
-                    width={600}
-                    height={400}
+                    // width={600}
+                    // height={400}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }} // optional
                     className="w-full h-64 object-cover"
                     loading="lazy"
                   />
