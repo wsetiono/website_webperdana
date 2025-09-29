@@ -35,4 +35,25 @@
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://webperdana.com/kontak" />
   </url>
+  <url>
+    <loc>https://webperdana.com/blog</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://webperdana.com/blog" />
+  </url>
+  <url>
+    <loc>https://webperdana.com/blog/tren-desain-website-2025</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://webperdana.com/blog/tren-desain-website-2025" />
+  </url>
+    <url>
+    <loc>https://webperdana.com/blog/cara-meningkatkan-kecepatan-website</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://webperdana.com/blog/cara-meningkatkan-kecepatan-website" />
+  </url>
 </urlset>
