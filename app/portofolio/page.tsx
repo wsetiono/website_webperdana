@@ -40,13 +40,7 @@ export default function PortofolioPage() {
         "Admin Dashboard",
         "Mobile Responsive",
       ],
-      results: {
-        performance: "Fast Ecommerce Initial Load",
-        conversion: "40% Increase in Sales",
-        traffic: "200% Traffic Growth",
-      },
       year: "2024",
-      client: "Electronic Store",
       url: "#",
     },
     {
@@ -65,13 +59,7 @@ export default function PortofolioPage() {
         "Showcase Image Gallery",
         "Customer Loyalty Point",
       ],
-      results: {
-        performance: "Online Book dan QR Menu memudahkan pelanggan dalam memesan menu",
-        conversion: "Jumlah Pesanan tiap bulan meningkat secara signifikan",
-        traffic: "Loyalty Point membuat pelanggan makin loyal",
-      },
       year: "2024",
-      client: "Sushi Restaurant",
       url: "#",
     },
     {
@@ -88,13 +76,7 @@ export default function PortofolioPage() {
         "Loyalty Point Management",
         "Loyalty Point Reward",
       ],
-      results: {
-        performance: "Loyalty Point membuat pelanggan makin sering belanja di toko/restoran anda",
-        conversion: "Jumlah pesanan makin meningkat",
-        traffic: "Loyalty Point membuat pelanggan makin loyal",
-      },
       year: "2024",
-      client: "Kedai Siomay",
       url: "#",
     },
     {
@@ -112,13 +94,7 @@ export default function PortofolioPage() {
         "Perhitungan Payroll",
         "Generate Report"
       ],
-      results: {
-        performance: "Loyalty Point membuat pelanggan makin sering belanja di toko/restoran anda",
-        conversion: "Jumlah pesanan makin meningkat",
-        traffic: "Loyalty Point membuat pelanggan makin loyal",
-      },
       year: "2024",
-      client: "Perusahaan Tekstil",
       url: "#",
     },
     {
@@ -136,24 +112,18 @@ export default function PortofolioPage() {
         "Dashboard",
         "Low Stock Alert"
       ],
-      results: {
-        performance: "Memudahkan business owner mengelola barang yang dimiliki",
-        conversion: "Efisiensi waktu dalam pengelolaan bisnis lebih terjaga",
-        traffic: "Manajemen stok barang lebih teratur dan terjaga",
-      },
       year: "2024",
-      client: "Perusahaan Karpet",
       url: "#",
     },
     {
       id: 6,
       title: "Online Learning Platform",
       category: "Web Application",
-      type: "webapp",
+      type: "web app",
       description:
         "Platform pembelajaran online dengan fitur dashboard, manajemen kursus, manajemen siswa, manajemen guru, assignment, penilaian",
-      image: "/learning-management-system.png",
-      technologies: ["Next.js", "React", "Node.js", "MongoDB", "AWS S3"],
+      image: "/portofolio/learning-management-system.png",
+      technologies: ["Next.js", "React", ".NET Core API", "Tailwind CSS"],
       features: [
         "Dashboard",
         "Manajemen Kursus",
@@ -161,15 +131,44 @@ export default function PortofolioPage() {
         "Manajemen Guru",
         "Assignment",
       ],
-      results: {
-        students: "2K+ Active Students",
-        completion: "78% Course Completion",
-        satisfaction: "4.6/5 Student Rating",
-      },
       year: "2023",
-      client: "Educational Institution",
       url: "#",
     },
+    {
+      id: 7,
+      title: "Medical Clinic Website",
+      category: "Web Application",
+      type: "web app",
+      description:
+        "Website klinik medis dengan sistem appointment booking, informasi dokter, informasi pasien, report.",
+      image: "/portofolio/medical-system.png",
+      technologies: ["Next.js", "React", ".NET Core API", "Tailwind CSS"],
+      features: [
+        "Online Appointment Booking",
+        "Doctor Profiles & Schedules",
+        "Patient Information",
+        "Report",
+      ],
+      year: "2023",
+      url: "#",
+    },   
+    {
+      id: 8,
+      title: "POS System",
+      category: "Web Application",
+      type: "web app",
+      description:
+        "POS System dengan list produk, add to chart, checkout, search.",
+      image: "/portofolio/pos-system.PNG",
+      technologies: ["Next.js", "React", ".NET Core API", "Tailwind CSS"],
+      features: [
+        "List Product",
+        "Add to Cart",
+        "Checkout",
+      ],
+      year: "2023",
+      url: "#",
+    }, 
     // {
     //   id: 3,
     //   title: "Food Delivery Mobile App",
@@ -418,9 +417,9 @@ export default function PortofolioPage() {
                             • {feature}
                           </div>
                         ))}
-                        {item.features.length > 3 && (
+                        {/* {item.features.length > 3 && (
                           <div className="text-sm text-muted-foreground">+{item.features.length - 3} fitur lainnya</div>
-                        )}
+                        )} */}
                       </div>
                     </div>
 
