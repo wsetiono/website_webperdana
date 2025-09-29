@@ -165,87 +165,18 @@ export default function KontakPage() {
             {/* Contact Form */}
             <div className="space-y-8">
               <div>
-                <h2 className="text-3xl font-bold text-foreground mb-4">Kirim Pesan</h2>
-                <p className="text-muted-foreground">
-                  Ceritakan tentang proyek Anda dan kami akan memberikan konsultasi terbaik untuk kebutuhan digital
-                  Anda.
-                </p>
-              </div>
-
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="name">Nama Lengkap *</Label>
-                    <Input id="name" placeholder="Masukkan nama lengkap" required />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="company">Nama Perusahaan</Label>
-                    <Input id="company" placeholder="Nama perusahaan (opsional)" />
+                  <h3 className="text-xl font-semibold text-foreground mb-4">Pertanyaan Umum</h3>
+                  <div className="space-y-4">
+                    {faqs.map((faq, index) => (
+                      <Card key={index} className="p-4">
+                        <CardContent className="space-y-2">
+                          <h4 className="font-medium text-foreground">{faq.question}</h4>
+                          <p className="text-sm text-muted-foreground">{faq.answer}</p>
+                        </CardContent>
+                      </Card>
+                    ))}
                   </div>
                 </div>
-
-                <div className="grid md:grid-cols-2 gap-4">
-                  <div className="space-y-2">
-                    <Label htmlFor="email">Email *</Label>
-                    <Input id="email" type="email" placeholder="nama@email.com" required />
-                  </div>
-                  <div className="space-y-2">
-                    <Label htmlFor="phone">Nomor WhatsApp *</Label>
-                    <Input id="phone" placeholder="+62 812-3456-7890" required />
-                  </div>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="service">Layanan yang Dibutuhkan *</Label>
-                  <select
-                    id="service"
-                    className="w-full px-3 py-2 border border-input bg-background rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
-                    required
-                  >
-                    <option value="">Pilih layanan</option>
-                    <option value="website">Website Development</option>
-                    <option value="webapp">Web Application</option>
-                    <option value="mobile">Mobile App (Android/iOS)</option>
-                    <option value="consultation">Konsultasi Teknologi</option>
-                    <option value="other">Lainnya</option>
-                  </select>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="budget">Estimasi Budget</Label>
-                  <select
-                    id="budget"
-                    className="w-full px-3 py-2 border border-input bg-background rounded-md focus:outline-none focus:ring-2 focus:ring-ring"
-                  >
-                    <option value="">Pilih range budget</option>
-                    <option value="under-5m">Di bawah Rp 5 juta</option>
-                    <option value="5m-15m">Rp 5 - 15 juta</option>
-                    <option value="15m-30m">Rp 15 - 30 juta</option>
-                    <option value="30m-50m">Rp 30 - 50 juta</option>
-                    <option value="above-50m">Di atas Rp 50 juta</option>
-                  </select>
-                </div>
-
-                <div className="space-y-2">
-                  <Label htmlFor="message">Deskripsi Proyek *</Label>
-                  <Textarea
-                    id="message"
-                    placeholder="Ceritakan detail tentang proyek yang ingin Anda kerjakan, fitur yang dibutuhkan, timeline, dan informasi lain yang relevan..."
-                    rows={5}
-                    required
-                  />
-                </div>
-
-                <Button size="lg" className="w-full">
-                  <Send className="mr-2 h-5 w-5" />
-                  Kirim Pesan
-                </Button>
-
-                <p className="text-sm text-muted-foreground">
-                  * Dengan mengirim pesan, Anda menyetujui bahwa kami akan menghubungi Anda untuk konsultasi lebih
-                  lanjut.
-                </p>
-              </form>
             </div>
 
             {/* Services & Info */}
@@ -300,7 +231,7 @@ export default function KontakPage() {
                 </CardContent>
               </Card>
 
-              <div>
+              {/* <div>
                 <h3 className="text-xl font-semibold text-foreground mb-4">Pertanyaan Umum</h3>
                 <div className="space-y-4">
                   {faqs.map((faq, index) => (
@@ -312,7 +243,7 @@ export default function KontakPage() {
                     </Card>
                   ))}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
