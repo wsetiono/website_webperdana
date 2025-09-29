@@ -270,7 +270,7 @@ export default function TentangKamiPage() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-4 mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground">Tim Ahli Kami</h2>
@@ -313,7 +313,7 @@ export default function TentangKamiPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Timeline Section */}
       <section className="py-20 bg-muted/30">
