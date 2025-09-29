@@ -16,13 +16,13 @@ export function Footer() {
               cepat, keamanan terjamin.
             </p>
             <div className="flex space-x-4">
-              <Link
+              {/* <Link
                 href="https://www.facebook.com/webperdana"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
-              </Link>
+              </Link> */}
               <Link
                 href="https://www.instagram.com/webperdana"
                 className="text-muted-foreground hover:text-foreground transition-colors"
@@ -30,7 +30,7 @@ export function Footer() {
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link
+              {/* <Link
                 href="https://www.linkedin.com/company/webperdana"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
@@ -50,7 +50,7 @@ export function Footer() {
               >
                 <Youtube className="h-5 w-5" />
                 <span className="sr-only">YouTube</span>
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -108,9 +108,9 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-sm font-semibold text-foreground">Kontak</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>Email: info@webperdana.com</li>
-              <li>WhatsApp: +62 xxx xxxx xxxx</li>
-              <li>Indonesia</li>
+              <li>Email: webperdana.cs@gmail.com</li>
+              <li>WhatsApp: +62 851 7955 2735</li>
+              <li>Jalan Pluit Karang Sari 2 No. 40, Pluit, Jakarta Utara, Indonesia</li>
             </ul>
           </div>
         </div>
@@ -119,12 +119,12 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">© {currentYear} Web Perdana. Semua hak dilindungi.</p>
             <div className="flex space-x-6 text-sm">
-              <Link href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">
+              {/* <Link href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">
                 Kebijakan Privasi
               </Link>
               <Link href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">
                 Syarat & Ketentuan
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
