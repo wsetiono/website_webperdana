@@ -74,23 +74,23 @@ export default function HomePage() {
   const testimonials = [
     {
       name: "Owner",
-      company: "Toko Elektronik Maju",
+      company: "Fashion Boutique",
       rating: 5,
       comment:
-        "Website yang dibuat Web Perdana sangat membantu meningkatkan penjualan online kami. Desainnya menarik dan mudah digunakan!",
-    },
-    {
-      name: "Owner",
-      company: "Klinik Sehat Bersama",
-      rating: 5,
-      comment:
-        "Aplikasi booking yang dibuat sangat memudahkan pasien untuk membuat janji. Tim Web Perdana sangat profesional!",
+        "Website e-commerce yang dibuat Web Perdana sangat membantu meningkatkan penjualan online kami. Desainnya menarik dan mudah digunakan.",
     },
     {
       name: "Strategic Business Manager",
-      company: "Restoran Nusantara",
+      company: "Food Delivery Startup",
       rating: 5,
-      comment: "Aplikasi delivery yang dikembangkan meningkatkan efisiensi bisnis kami. Highly recommended!",
+      comment:
+        "Aplikasi mobile yang dikembangkan sangat profesional dan sesuai dengan kebutuhan bisnis kami. Tim sangat responsif dan supportif.",
+    },
+    {
+      name: "Owner",
+      company: "Klinik Medis",
+      rating: 5,
+      comment: "Website klinik kami menjadi lebih modern dan fungsional. Sistem booking online sangat memudahkan pasien untuk membuat janji.",
     },
   ]
 
