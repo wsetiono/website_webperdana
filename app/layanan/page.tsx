@@ -52,7 +52,7 @@ export default function LayananPage() {
         "Maintenance & support berkelanjutan",
       ],
       technologies: ["Next.js", "React", "WordPress", "HTML5", "CSS3", "JavaScript"],
-      startingPrice: "Mulai dari Rp 800.000",
+      startingPrice: "Mulai dari Rp 500.000",
       image: "/web-development-service.jpg",
       examples: [
         "Website Company Profile",
@@ -78,7 +78,7 @@ export default function LayananPage() {
         "Cloud deployment & scaling",
       ],
       technologies: ["React", "Node.js", "Next.js", "PostgreSQL", "MongoDB", "AWS"],
-      startingPrice: "Mulai dari Rp 2.000.000",
+      startingPrice: "Mulai dari Rp 1.500.000",
       image: "/web-app-development-service.jpg",
       examples: [
         "Sistem Manajemen Inventory",
@@ -104,7 +104,7 @@ export default function LayananPage() {
         "Analytics & crash reporting",
       ],
       technologies: ["React Native", "Flutter", "Swift", "Kotlin", "Firebase", "Expo"],
-      startingPrice: "Mulai dari Rp 5.000.000",
+      startingPrice: "Mulai dari Rp 3.000.000",
       image: "/mobile-app-development-service.jpg",
       examples: [
         "Aplikasi E-commerce",
