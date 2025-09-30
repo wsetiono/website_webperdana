@@ -356,8 +356,8 @@ export default function LayananPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <Link href="/kontak">
-                  Mulai Konsultasi Gratis
+                <Link href="/portofolio">
+                  Lihat Portofolio
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
@@ -366,7 +366,7 @@ export default function LayananPage() {
                 variant="secondary"
                 asChild
               >
-                <Link href="https://wa.me/6285179552735">Chat WhatsApp</Link>
+                <Link href="https://wa.me/6285179552735">Mulai Konsultasi Gratis</Link>
               </Button>
             </div>
           </div>
