@@ -6,6 +6,7 @@ import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import { WhatsAppChat } from "@/components/whatsapp-chat"
 import "./globals.css"
+import { GoogleAnalytics } from "@next/third-parties/google"
 
 export const metadata: Metadata = {
   title: "Web Perdana - Jasa Pembuatan Website, Web App & Mobile App Terpercaya",
@@ -153,6 +154,7 @@ export default function RootLayout({
       <body className="font-sans antialiased">
         <Suspense fallback={null}>{children}</Suspense>
         <WhatsAppChat />
+        <GoogleAnalytics gaId="G-31TSQ7MPC2" />
         <Analytics />
       </body>
     </html>
