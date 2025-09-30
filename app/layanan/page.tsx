@@ -364,7 +364,6 @@ export default function LayananPage() {
               <Button
                 size="lg"
                 variant="secondary"
-                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
                 asChild
               >
                 <Link href="https://wa.me/6285179552735">Chat WhatsApp</Link>
