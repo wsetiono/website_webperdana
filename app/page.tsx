@@ -123,7 +123,7 @@ export default function HomePage() {
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
-                <Button variant="outline" size="lg" asChild>
+                <Button size="lg" asChild>
                   <Link href="/portofolio">Lihat Portofolio</Link>
                 </Button>
               </div>
@@ -295,7 +295,7 @@ export default function HomePage() {
                 </Button> */}
                 <Button
                   size="lg"
-                  variant="outline"
+                  variant="secondary"
                   className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
                   asChild
                 >
