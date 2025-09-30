@@ -642,7 +642,6 @@ export default function PortofolioPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
                 asChild
               >
                 <Link href="/layanan">Lihat Layanan Kami</Link>
