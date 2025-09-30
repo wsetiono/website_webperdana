@@ -634,7 +634,7 @@ export default function PortofolioPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" variant="secondary" asChild>
-                <Link href="/kontak">
+                <Link href="https://wa.me/6285179552735">
                   Mulai Proyek Anda
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
