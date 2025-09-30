@@ -295,7 +295,7 @@ export default function HomePage() {
                 </Button> */}
                 <Button
                   size="lg"
-                  variant="secondary"
+                  variant="outline"
                   className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
                   asChild
                 >
