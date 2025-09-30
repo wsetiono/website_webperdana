@@ -118,7 +118,7 @@ export default function HomePage() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
-                  <Link href="/kontak">
+                  <Link href="https://wa.me/6285179552735">
                     Konsultasi Gratis
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
