@@ -152,9 +152,9 @@ export default function BlogPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg">
-              <Link href="/kontak">Konsultasi Gratis</Link>
+              <Link href="https://wa.me/6285179552735">Konsultasi Gratis</Link>
             </Button>
-            <Button asChild variant="outline" size="lg">
+            <Button asChild size="lg">
               <Link href="/portofolio">Lihat Portfolio</Link>
             </Button>
           </div>
