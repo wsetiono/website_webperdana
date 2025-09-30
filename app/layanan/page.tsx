@@ -192,12 +192,12 @@ export default function LayananPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>
-                <Link href="/kontak">
+                <Link href="https://wa.me/6285179552735">
                   Konsultasi Gratis
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button variant="outline" size="lg" asChild>
+              <Button size="lg" asChild>
                 <Link href="/portofolio">Lihat Hasil Kerja Kami</Link>
               </Button>
             </div>
@@ -266,7 +266,7 @@ export default function LayananPage() {
                     </div>
 
                     <Button size="lg" asChild>
-                      <Link href="/kontak">
+                      <Link href="https://wa.me/6285179552735">
                         Diskusi Proyek Ini
                         <ArrowRight className="ml-2 h-5 w-5" />
                       </Link>
@@ -363,11 +363,11 @@ export default function LayananPage() {
               </Button>
               <Button
                 size="lg"
-                variant="outline"
+                variant="secondary"
                 className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
                 asChild
               >
-                <Link href="https://wa.me/62xxxxxxxxx">Chat WhatsApp</Link>
+                <Link href="https://wa.me/6285179552735">Chat WhatsApp</Link>
               </Button>
             </div>
           </div>
