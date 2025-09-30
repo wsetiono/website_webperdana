@@ -295,8 +295,7 @@ export default function HomePage() {
                 </Button> */}
                 <Button
                   size="lg"
-                  variant="outline"
-                  className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary bg-transparent"
+                  variant="secondary"
                   asChild
                 >
                   <Link href="https://wa.me/6285179552735">WhatsApp Kami</Link>
